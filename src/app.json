@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/feedback/main",
+    "pages/setting/main",
+    "pages/nearby/main",
+    "pages/purchase/main",
+    "pages/integral/main",
+    "pages/experience/main",
+    "pages/collectionList/main",
+    "pages/information/main",
+    "pages/informationDetail/main",
+    "pages/counter/main",
+    "pages/search/main",
+    "pages/passageDetail/main",
+    "pages/release/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/detail/main",
+    "pages/getdata/main",
+    "pages/service/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aad0f7",
+    "navigationBarTitleText": "研验",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      }
+    ],
+
+    "items": [
+      {
+        "name": "首页",
+        "pagePath": "pages/index/main",
+        "icon": "static/tabs/home.png",
+        "activeIcon": "static/tabs/home-active.png"
+      },
+      {
+        "name": "订单",
+        "pagePath": "pages/logs/main",
+        "icon": "static/tabs/orders.png",
+        "activeIcon": "static/tabs/orders-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
